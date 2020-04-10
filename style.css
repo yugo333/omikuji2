@@ -1,0 +1,28 @@
+
+body{
+  background-color: rgb(187, 187, 187);
+}
+
+#btn{
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 200px;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 16px 2px rgb(149, 15, 42);
+  user-select: none; /*文字を検出できないようにする*/
+}
+#btn:hover{
+  opacity: 0.9;
+}
+#btn:active{
+  box-shadow: 0 8px 2px rgb(149, 15, 42);
+  margin-top: 108px;
+}
